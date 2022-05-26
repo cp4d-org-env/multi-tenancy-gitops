@@ -29,6 +29,8 @@ spec:
         value: "Enterprise"
       - name: spec.storageClass
         value: "managed-nfs-storage"
+      - name: spec.scaleConfig
+        value: "large"
   syncPolicy:
     automated:
       prune: true
